@@ -1,0 +1,15 @@
+.DS_Store
+server/node_modules/
+server/package-lock.json
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/pnpm-debug.log*
+server/dist/
+server/build/
+server/coverage/
+server/.env
+server/.env.*
+server/.cache/
+server/.idea/
+server/.vscode/
