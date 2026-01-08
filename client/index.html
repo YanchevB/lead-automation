@@ -37,7 +37,7 @@
         console.log("Submitting lead", data);
 
         try {
-          const resp = await fetch("/api/leads", {
+          const resp = await fetch("http://localhost:3000/api/leads", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),
